@@ -1,0 +1,5 @@
+.git/
+.spyproject/
+__pycache__/
+
+*.gif
