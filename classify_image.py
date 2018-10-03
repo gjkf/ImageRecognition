@@ -170,7 +170,7 @@ def run_inference_on_image(image):
 
 
 def maybe_download_and_extract():
-  """Download and extract model tar file."""
+  """Download and extract the model tar file."""
   dest_directory = FLAGS.model_dir
   if not os.path.exists(dest_directory):
     os.makedirs(dest_directory)
